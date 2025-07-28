@@ -15,7 +15,7 @@ export function Sidebar() {
           src="https://github.com/victorozoterio.png"
         />
         <strong>Victor Ozoterio</strong>
-        <span>Full Stack</span>
+        <span>Full Stack Developer</span>
       </div>
 
       <footer>
