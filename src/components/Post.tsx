@@ -29,7 +29,7 @@ interface PostProps {
 }
 
 export function Post({ post }: PostProps) {
-  const [comments, setComments] = useState(['Post muito bacana, hein?!']);
+  const [comments, setComments] = useState(['']);
   const [newCommentText, setNewCommentText] = useState('');
 
   const publishedDateFormatted = format(post.publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
