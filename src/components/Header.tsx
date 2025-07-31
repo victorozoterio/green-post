@@ -1,11 +1,11 @@
 import styles from "./Header.module.css";
 
-import igniteLogo from "../assets/ignite-logo.svg";
+import logo from "../assets/logo.svg";
 
 export function Header() {
   return (
     <header className={styles.header}>
-      <img src={igniteLogo} alt="Logo do Ignite" />
+      <img src={logo} alt="Logo do Green Post" />
     </header>
   );
 }
